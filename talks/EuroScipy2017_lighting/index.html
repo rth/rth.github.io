@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title</title>
+    <title>Contributing to multiple Github repositories with Schoty - Roman Yurchak </title>
     <meta charset="utf-8">
     <style>
       @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
@@ -29,36 +29,44 @@ class: left, top
 wget https://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh
 ```
 
---
 
  * used by 3k+ projects on Github 
+
+--
  * outdated 2016 conda version => use `Miniconda`**3**`-latest-Linux-x86_64.sh`
- * removed from https://repo.continuum.io/miniconda/ in May 2017
+ * removed from [repo.continuum.io/miniconda/](https://repo.continuum.io/miniconda/) in May 2017
    <img src="./gh_comment.png" alt="Github comment" style="width: 100%;"/>
 
 --
 
-#### Steps to fix *x N package maintainers*
+#### Steps to fix *[x N package maintainers]*
 
  * Detect the problem
- * Search for the source of the error
+ * Search for a solution
  * Implement a fix
 
 --
-Can we make (small) changes across Github repositories? Also vulnerability fixing, etc.
+
+Also vulnerability fixing, CI configuration, datasets URL, `left-pad` (Node JS), ...
+
+
+
+How can we make (small) changes across Github repositories?
+
 
 
 ---
 
 class: left, top
 
-# Could we 
+# Contributing to multiple Github repositories
 
-1. Introduction
-2. Deep-dive
-3. ...
+<img src="https://cloud.githubusercontent.com/assets/630936/24074069/25d5a306-0c02-11e7-9d81-9ce008676dc8.png" alt="Schoty diagram" style="width: 110%;"/>
 
- http://github.com/schoty   or    [@RomanYurchak](https://twitter.com/RomanYurchak)
+ * Monorepo created with empty history by aggregating shallow clones 
+ * Synchronization achieved by processing and applying `git` patches. 
+
+ [http://github.com/schoty](github.com/schoty) (work in progress)   |  <img src="https://png.icons8.com/twitter/android/24" title="Twitter" width="18" height="18">  [@RomanYurchak](https://twitter.com/RomanYurchak)
 
     </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js">
