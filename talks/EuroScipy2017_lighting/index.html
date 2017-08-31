@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif';
+           }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: left, top
+
+# A comment on maintaining Python packages
+
+#### Typical Continuous Integration setup
+```
+wget https://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh
+```
+
+--
+
+ * used by 3k+ projects on Github 
+ * outdated 2016 conda version => use `Miniconda`**3**`-latest-Linux-x86_64.sh`
+ * removed from https://repo.continuum.io/miniconda/ in May 2017
+   <img src="./gh_comment.png" alt="Github comment" style="width: 100%;"/>
+
+--
+
+#### Steps to fix *x N package maintainers*
+
+ * Detect the problem
+ * Search for the source of the error
+ * Implement a fix
+
+--
+Can we make (small) changes across Github repositories? Also vulnerability fixing, etc.
+
+
+---
+
+class: left, top
+
+# Could we 
+
+1. Introduction
+2. Deep-dive
+3. ...
+
+ http://github.com/schoty   or    [@RomanYurchak](https://twitter.com/RomanYurchak)
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
