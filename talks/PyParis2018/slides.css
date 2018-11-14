@@ -1,5 +1,5 @@
-@import url(webfont-ubuntu-400-300-100.css);
-@import url(webfont-ubuntu-mono-400-700-400italic.css);
+@import url(../css/webfont-ubuntu-400-300-100.css);
+@import url(../css/webfont-ubuntu-mono-400-700-400italic.css);
 
 body {
   font-family: 'Ubuntu';
